@@ -15,7 +15,7 @@ bot.on('ready', (message) => {
 		console.log('send msg'+msg)
 		//console.log('ready!')
 		if (tempUser!=msg) {
-				const id = "368899862735093761";
+				const id = "430595787395825665";
 				const channel = bot.channels.get(id);
 				channel.send('```'+msg+'```')
 			
