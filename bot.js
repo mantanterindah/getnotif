@@ -13,7 +13,7 @@ bot.on('ready', (message) => {
 		var username = req.query.username;
 		var msg = req.query.msg;
 		console.log('send msg'+msg)
-		console.log('ready!')
+		//console.log('ready!')
 		if (tempUser!=msg) {
 				const id = "368899862735093761";
 				const channel = bot.channels.get(id);
